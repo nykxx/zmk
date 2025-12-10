@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "*.overlay": "dts",
-    "*.keymap": "dts"
+    "*.keymap": "dts",
+    "behavior_queue.h": "c"
   },
   "python.analysis.include": ["app/scripts", "zephyr/scripts"],
   "[c]": {
@@ -18,5 +19,25 @@
   "[css][json][jsonc][html][markdown][yaml]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f27929",
+    "activityBar.background": "#f27929",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#077834",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#f27929",
+    "statusBar.background": "#db5f0d",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#f27929",
+    "statusBarItem.remoteBackground": "#db5f0d",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#db5f0d",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#db5f0d99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#db5f0d"
 }
